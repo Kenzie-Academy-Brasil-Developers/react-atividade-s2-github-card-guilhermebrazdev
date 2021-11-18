@@ -1,0 +1,14 @@
+.App {
+  background: #006b3c;
+  min-height: 100vh;
+  background-image: url("./assets/geometric_background.jpg");
+  background-size: cover;
+}
+
+#program {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}

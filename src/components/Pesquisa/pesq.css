@@ -1,0 +1,42 @@
+#pesquisa {
+  background: rgba(170, 135, 18, 0.9);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#pesqInput {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+#erro {
+  color: #e3174f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#pesqBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#pesqBox button {
+  margin-top: 10px;
+  width: 160px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background: #f1ce78;
+  cursor: pointer;
+}
